@@ -1,5 +1,5 @@
 import React from 'react';
-import TurnBar from '../turnbar';
+import TurnBar from './components/turnbar';
 import renderer from 'react-test-renderer';
 
 describe('Turnbar', () => {

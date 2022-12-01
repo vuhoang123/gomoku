@@ -1,5 +1,5 @@
 
-import PlayStack from "../playStack";
+import PlayStack from "./components/playStack";
 import renderer from 'react-test-renderer';
 
 describe('Check play stack', () => {
