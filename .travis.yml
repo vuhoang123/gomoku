@@ -13,3 +13,8 @@ jobs:
       script:
         - npm run test
         - CI=false npm run build
+      deploy:
+      provider: pages
+      skip_cleanup: true
+      on:
+        branch: main
