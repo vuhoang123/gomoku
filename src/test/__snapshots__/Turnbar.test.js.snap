@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Turnbar 1`] = `
+<div
+  className="turnbar"
+>
+  <p>
+    Winner: X
+  </p>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+</div>
+`;
