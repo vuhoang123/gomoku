@@ -9,8 +9,8 @@ jobs:
   include:
     - stage: test
       script:
-        - npm run test
-        - CI=false npm run build
+        - npm run test -- --watchAll=false
+        - npm run build
       deploy:
         provider: pages
         github_token: $GITHUB_TOKEN
