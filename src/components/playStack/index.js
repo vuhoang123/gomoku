@@ -3,7 +3,7 @@ import "./PlayStack.css";
 function PlayStack({ content }) {
   const [stack, setStack] = useState(content);
 
-  const [sortOrder, setSortOrder] = useState("desc");
+  const [sortOrder, setSortOrder] = useState("asc");
 
   const sortAsc = () => {
     setStack([...stack].sort((a, b) => a[0] - b[0]));
