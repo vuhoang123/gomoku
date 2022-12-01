@@ -7,7 +7,7 @@ function PlayStack({content}) {
 
   const sortAsc = () => {
     setStack([...stack].sort((a, b) => a[0] - b[0]))
-    setSortOrder("asc")
+    setSortOrder("desc")
   }
   const sortDesc = () => {
     setStack([...stack].sort((a, b) => b[0] - a[0]))
